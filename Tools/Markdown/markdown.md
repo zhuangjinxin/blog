@@ -1,6 +1,6 @@
 # Markdown
 
-## Standard Markdown
+## Standard Markdown 标准Markdown语法
 
 ### Headers 标题
 
@@ -21,7 +21,7 @@ Alt-H2
 ------
 ```
 
-### Header IDs and links
+### Header IDs and links 标题ID和链接
 
 All Markdown-rendered headers automatically get IDs, except in comments.
 
@@ -56,7 +56,7 @@ Would generate the following link IDs:
 
 Note that the Emoji processing happens before the header IDs are generated, so the Emoji is converted to an image which then gets removed from the ID.
 
-### Emphasis
+### Emphasis 强调
 
 ```no-highlight
 Emphasis, aka italics, with *asterisks* or _underscores_.
@@ -186,7 +186,7 @@ Reference-style:
 
 [logo]: img/markdown_logo.png
 
-### Blockquotes
+### Blockquotes 引用
 
 ```no-highlight
 > Blockquotes are very handy in email to emulate reply text.
@@ -204,7 +204,7 @@ Quote break.
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
-### Inline HTML
+### Inline HTML 内嵌HTML
 
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
@@ -228,7 +228,7 @@ See the documentation for HTML::Pipeline's [SanitizationFilter](http://www.rubyd
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-### Horizontal Rule
+### Horizontal Rule 水平线
 
 ```
 Three or more...
@@ -260,7 +260,7 @@ ___
 
 Underscores
 
-### Line Breaks
+### Line Breaks 换行符
 
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.
 
@@ -326,7 +326,7 @@ By including colons in the header row, you can align the text within that column
 | Cell 1       | Cell 2   | Cell 3        | Cell 4       | Cell 5   | Cell 6        |
 | Cell 7       | Cell 8   | Cell 9        | Cell 10      | Cell 11  | Cell 12       |
 
-### Footnotes
+### Footnotes 脚注
 
 ```
 You can add footnotes to your text as follows.[^2]
